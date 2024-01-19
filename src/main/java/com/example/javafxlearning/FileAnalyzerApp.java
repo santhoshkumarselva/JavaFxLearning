@@ -9,6 +9,7 @@ import javafx.scene.control.ComboBox;
 import javafx.stage.FileChooser;
 import javafx.scene.control.TextArea;
 import java.io.File;
+import main.java.com.santhosh.loganalysis.*;
 
 public class FileAnalyzerApp extends Application {
 
@@ -19,15 +20,13 @@ public class FileAnalyzerApp extends Application {
     public void start(Stage primaryStage) {
         // Create buttons and other UI elements
         Button selectFileButton = new Button("Select File");
-        Button selectCategoryButton = new Button("Select Category");
         ComboBox<String> categoryDropdown = new ComboBox<>();
         categoryDropdown.getItems().addAll("wired carplay");
+        Button selectCategoryButton = new Button("Select Category");
         Button analyzeButton = new Button("Analyse");
         TextArea fileContentsArea = new TextArea();
-
         // File chooser
         FileChooser fileChooser = new FileChooser();
-
         // Event handlers
         selectFileButton.setOnAction(e -> {
             selectedFile = fileChooser.showOpenDialog(primaryStage);
