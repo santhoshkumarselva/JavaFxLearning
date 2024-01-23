@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a031fecb-9d41-4509-9706-f3dc79f65dac" name="Changes" comment="Initial commit&#10;&#10;Sample java fx GUI application for learning purpose.">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/wired_carplay_connection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/wireless_carplay_connection.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafxlearning/FileAnalyzerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxlearning/FileAnalyzerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,15 +50,36 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/santh/IdeaProjects/LogAnalysis/out/artifacts/LogAnalysis_jar/LogAnalysis.jar",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "C:/Users/skumars/IdeaProjects/RemoteProjects/LogAnalysis/out/artifacts/LogAnalysis_jar/LogAnalysis.jar",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\skumars\IdeaProjects\RemoteProjects\JavaFxLearning\src\main\resources\com\example\javafxlearning" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\skumars\IdeaProjects\RemoteProjects\JavaFxLearning\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FileAnalyzerApp">
     <configuration name="FileAnalyzerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.javafxlearning.FileAnalyzerApp" />
+      <module name="JavaFxLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javafxlearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.javafxlearning.HelloApplication" />
       <module name="JavaFxLearning" />
       <extension name="coverage">
         <pattern>
@@ -72,6 +94,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.FileAnalyzerApp" />
+        <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
   </component>
