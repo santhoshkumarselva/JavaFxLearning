@@ -15,7 +15,7 @@
     <expression>.*CiAP2NotificationDevCtrl::deviceLanguageUpdate.*</expression>
     <expression>.*CiAP2NotificationDevCtrl::deviceNameUpdate:.*</expression>
     <expression>.*received CMD_CARPLAY_AVAILABILITY from device.*</expression>
-    <expression>.*WiredTransportIdentifier__mHasCarPlay: AVAILABLE.*</expression>
+    <expression>.*WirelessTransportIdentifier__mHasCarPlay: AVAILABLE.*</expression>
     <expression>.*CarPlay : CpService  launchWirelessCarPlay.*</expression>
     <expression>.*Reading IPv6 Address for interface.*</expression>
     <expression>.*CiAP2DomainCore startCarPlaySession done.*</expression>

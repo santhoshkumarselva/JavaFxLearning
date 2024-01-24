@@ -29,7 +29,7 @@ public class FileAnalyzerApp extends Application {
         Button selectCategoryButton = new Button("Select Category");
         Button analyzeButton = new Button("Analyse");
         TextArea fileContentsArea = new TextArea();
-        fileContentsArea.setPrefSize(400, 300); // Set the preferred width to 400 and height to 300
+        fileContentsArea.setPrefSize(400, 600); // Set the preferred width to 400 and height to 300
         // File chooser
         FileChooser fileChooser = new FileChooser();
         rg = new RegularExpressionMatcher();

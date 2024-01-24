@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JavaFxLearning:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a031fecb-9d41-4509-9706-f3dc79f65dac" name="Changes" comment="Initial commit&#10;&#10;Sample java fx GUI application for learning purpose.">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/wired_carplay_connection.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/wireless_carplay_connection.xml" afterDir="false" />
+    <list default="true" id="a031fecb-9d41-4509-9706-f3dc79f65dac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafxlearning/FileAnalyzerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxlearning/FileAnalyzerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wireless_carplay_connection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/wireless_carplay_connection.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +55,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/skumars/IdeaProjects/RemoteProjects/LogAnalysis/out/artifacts/LogAnalysis_jar/LogAnalysis.jar",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
@@ -122,11 +126,20 @@
       <option name="project" value="LOCAL" />
       <updated>1705553568784</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removed unwanted code&#10;&#10;Shifted the xml files for carplay connection to fx application project from log analyser jar project.">
+      <option name="closed" value="true" />
+      <created>1706014694829</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706014694829</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit&#10;&#10;Sample java fx GUI application for learning purpose." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;&#10;Sample java fx GUI application for learning purpose." />
+    <MESSAGE value="Removed unwanted code&#10;&#10;Shifted the xml files for carplay connection to fx application project from log analyser jar project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unwanted code&#10;&#10;Shifted the xml files for carplay connection to fx application project from log analyser jar project." />
   </component>
 </project>
