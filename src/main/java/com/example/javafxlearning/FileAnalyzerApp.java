@@ -1,6 +1,9 @@
 package com.example.javafxlearning;
 
+import com.example.javafxlearning.controller.FileAnalyzerController;
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
@@ -21,7 +24,7 @@ public class FileAnalyzerApp extends Application {
     RegularExpressionMatcher rg;
 
     @Override
-    public void start(Stage primaryStage) {
+    public void start(Stage primaryStage) throws IOException {
         // Create buttons and other UI elements
         Button selectFileButton = new Button("Select File");
         ComboBox<String> categoryDropdown = new ComboBox<>();
@@ -86,9 +89,18 @@ public class FileAnalyzerApp extends Application {
         Scene scene = new Scene(root, 400, 300);
 
         // Stage
-        primaryStage.setScene(scene);
-        primaryStage.setTitle("Initial log Analyzer App");
+
+
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/javafxlearning/controller/MainPanelView.fxml"));
+        Parent root1 = loader.load();
+
+        // Set the controller for the loaded FXML
+        FileAnalyzerController controller = loader.getController();
+        Scene scene1 = new Scene(root1);
+        primaryStage.setScene(scene1);
+        primaryStage.setTitle("Sample App");
         primaryStage.show();
+
     }
 
     public static void main(String[] args) {
