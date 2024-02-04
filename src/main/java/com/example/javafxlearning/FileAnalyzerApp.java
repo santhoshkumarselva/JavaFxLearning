@@ -91,7 +91,7 @@ public class FileAnalyzerApp extends Application {
         // Stage
 
 
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/javafxlearning/controller/MainPanelView.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/javafxlearning/view/FileAnalyzerView.fxml"));
         Parent root1 = loader.load();
 
         // Set the controller for the loaded FXML

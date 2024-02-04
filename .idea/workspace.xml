@@ -10,12 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a031fecb-9d41-4509-9706-f3dc79f65dac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxlearning/controller/FileAnalyzerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxlearning/controller/MainPanelView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxlearning/controller/MainPanelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/javafxlearning/view/FileAnalyzerView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafxlearning/FileAnalyzerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxlearning/FileAnalyzerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafxlearning/controller/MainPanelView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxlearning/controller/MainPanelView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,33 +49,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FileAnalyzerApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.java.com.example.javafxlearning.FileAnalyzerApp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/santh/IdeaProjects/JavaFxLearning&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FileAnalyzerApp.executor": "Run",
+    "Application.HelloApplication.executor": "Run",
+    "Application.java.com.example.javafxlearning.FileAnalyzerApp.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/skumars/IdeaProjects/RemoteProjects/JavaFxLearning",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.JavaFX"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\skumars\IdeaProjects\RemoteProjects\JavaFxLearning\src\main\resources\com\example\javafxlearning" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\skumars\IdeaProjects\RemoteProjects\JavaFxLearning\src\main\resources\com\example\javafxlearning\view" />
       <recent name="C:\Users\santh\IdeaProjects\JavaFxLearning\src\main\java\com\example\javafxlearning\controller" />
       <recent name="C:\Users\santh\IdeaProjects\JavaFxLearning\src\main\resources\com\example\javafxlearning\view" />
       <recent name="C:\Users\santh\IdeaProjects\JavaFxLearning\src\main\java\com\example\javafxlearning" />
       <recent name="C:\Users\santh\IdeaProjects\JavaFxLearning\src\main\resources\com\example\javafxlearning" />
-      <recent name="C:\Users\santh\IdeaProjects\JavaFxLearning\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.javafxlearning" />
